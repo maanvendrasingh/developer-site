@@ -4,20 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevNinja</title>
+    <!-- CSS way 1: Style tag -->
+
+    <!-- <style>
+        body{
+            color: red;
+        }
+    </style> -->
+
+    <!-- Third way of doing CSS: external link -->
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Welcome to Maanvendra's component library</h1>
-    <p>
+    <h1 id="lib-header">Welcome to Maanvendra's component library</h1>
+    <p class="para">
       I am attending neog.camp and I want to make a library which would make all
       my projects look good and consistent.
     </p>
+
     <hr />
 
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is secong big heading</h2>
     <p>Let me show you a normal text.And wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text.</small>
+    <small class="para">This is relatively smaller text.</small>
 
     <hr />
 
@@ -58,7 +69,7 @@
         <li>Inline Item one</li>
         <li>Inline Item two</li>
         <li>Inline Item three</li>
-
+      </ul>
         <h3>reverse ordered list</h3>
         <ol>
           <li>milk</li>
@@ -120,10 +131,6 @@
                   <li>Socialthree</li>
               </ul>
           </footer>
-          
-<!-- 
-          <div style="padding-bottom: 50vh"></div> -->
-      </ul>
     </div>
   </body>
 </html>
