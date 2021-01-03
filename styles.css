@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #F59E0B;
+    --off-white: #F3F4F6;
     --dark-gray:#6B7280;
 }
 
@@ -97,3 +98,17 @@ hr{
 }
 
 /* sections */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footers */
+
