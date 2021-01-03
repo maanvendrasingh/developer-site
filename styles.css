@@ -7,7 +7,9 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;}
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
 
 /* container */
 
@@ -111,4 +113,24 @@ hr{
 }
 
 /* footers */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 1rem 0;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .list-item-inline{
+    padding: 0 0.2rem;
+}
+
+.footer ul{
+    padding-inline-start: 0;
+}
 
