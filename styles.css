@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #F59E0B;
+    --off-white: #F3F4F6;
+    --dark-gray:#6B7280;
+    --dark-bg : #1F2937;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+
+/* container */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem; ;
+}
+
+.container-center{
+    margin:auto;
+    max-width: 600px;
+}
+
+/* links */
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    display: block;
+    color: white;
+}
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    display: block;
+    border: 1px solid var(--primary-color);
+}
+
+.link{
+    max-width: 140px;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+hr{
+    margin: 1.5rem 0;
+}
+
+.list-non-bullet{
+    list-style: none;   
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigations */
+
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-radius: 0 1rem ;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+nav .link{
+    margin: 0;
+}
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--dark-gray);
+}
+.hero .hero-heading .heading-invert{
+    color: var(--primary-color);
+}
+
+/* sections */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+.section .heading-left{
+    text-align: left;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footers */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 1rem 0;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.footer .link{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer .list-item-inline{
+    padding: 0 0.2rem;
+}
+
+.footer ul{
+    padding-inline-start: 0;
+}
+
