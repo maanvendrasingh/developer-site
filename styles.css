@@ -72,6 +72,12 @@ hr{
 
 .navigation .nav-brand{
     font-weight: bold;
+    cursor:pointer;
+}
+
+.nav-brand a{
+    color: white;
+    text-decoration: none;
 }
 
 .navigation .nav-pills{
