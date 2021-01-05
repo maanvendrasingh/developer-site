@@ -17,7 +17,7 @@ body{
 
 .container{
     padding-left: 1rem;
-    padding-right: 1rem; ;
+    padding-right: 1rem; 
 }
 
 .container-center{
@@ -41,11 +41,15 @@ body{
 }
 
 .link{
-    max-width: 140px;
+    max-width: 150px;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 1rem;
+}
+section .link{
+    font-weight: bold;
+    margin:1rem 0;
 }
 
 hr{
